@@ -1,6 +1,6 @@
 ---
-title : About Me
+title : Contact
 description:
 ---
 
-Hello, how are you?
+Email: liuyilan@163.com

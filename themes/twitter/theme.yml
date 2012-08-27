@@ -2,9 +2,20 @@
   "stylesheets" : {
     "default" : [
       "bootstrap.min.css",
-      "style.css"
+      "style.css",
     ],
    
+    "timeline" : [
+      "timeline.css",
+      "sabrina.css",
+    ],
+
+    "page" : [
+    ],
+
+    "post" : [
+    ],
+
     "widgets" : {
       "google_prettify" : "twitter-bootstrap.css"
     }
@@ -13,6 +24,18 @@
 
   "javascripts" : {
     "default" : [
+      "jquery-1.8.0.min.js",
+    ],
+
+    "timeline" : [
+      "timeline-min.js",
+      "sabrina.js",
+    ],
+
+    "page" : [
+    ],
+
+    "post" : [
     ]
   },
   

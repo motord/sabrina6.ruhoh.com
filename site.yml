@@ -1,16 +1,16 @@
-title : Blog Title
+title : Sabrina
 tagline: Blog Tagline
 author :
-  name : Firstname Lastname
-  email : blah@email.test
+  name : Sabrina Liu
+  email : liuyilan@163.com
   github : username
   twitter : username
   feedburner : feedname
 
 navigation :
   - archive.html
-  - tags.html
-  - categories.html
+#  - tags.html
+#  - categories.html
   - pages.html
   - about.md
   

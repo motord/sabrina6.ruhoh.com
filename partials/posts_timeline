@@ -1,0 +1,25 @@
+<section>													<!-- Timeline Start Screen -->
+    <time>2001,1,1</time>									<!-- Timeline Begins Date -->
+    <h2>Sabrina Liu</h2>						<!-- Main Headline -->
+    <article>												<!-- Main Text -->
+        <h3>Objective:	Account Director</h3>
+    </article>
+    <figure>
+        <img src="/assets/media/sabrina.png">				<!-- Media, can also be a link to youtube video etc (optional) -->
+    </figure>
+</section>
+
+<ul>
+
+    <!-- Event -->
+    {{# db.posts.chronological?to_posts }}
+        <li>
+            <time>{{ date?year }},{{ date?month }},{{ date?day }}</time>		<!-- Event Date -->
+            <h3>{{ title }}</h3>							<!-- Headline -->
+            <article>											<!-- Main Text -->
+                {{{ content }}}
+            </article>
+        </li>
+    <!-- / Event -->
+    {{/ db.posts.chronological?to_posts }}
+</ul>
